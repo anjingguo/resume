@@ -79,11 +79,12 @@
         <text class='skill'>技能</text>
         <text class='tag'>掌握</text>
         <view class='detail'>
-          <view> 1.熟练使用html、css、js,掌握Flex、Grid布局，能够将UI设计转化成符合W3C规范的静态页面；</view>
-          <view>2.熟悉JavaScript语言,深入理解JS原型与原型链、作用域链、闭包、执行上下文等概念，熟悉Promise等ES6+新特性以及原理;了解JavaScript代码执行机制;</view>
-          <view>3.熟悉掌握vue,vue-cli,vue-router,vuex及其他常用组件和类库,能够独立进行项目构建和开发;</view>
-          <view>4.掌握Git基本命令,具有良好的代码规范;</view>
-          <view>5.熟悉TCP/IP协议,熟悉浏览器渲染的基本原理</view>
+          <view>1.熟练掌握 VUE 框架，熟练掌握vue相关生态（vue-router,vuex,vue-cli);</view>
+          <view>2.熟悉node服务，熟练掌握npm,yarn包管理工具，熟练掌握nvm node版本管理工具；;</view>
+          <view>3.熟练掌握element-UI,vant-UI等UI库，掌握 less，sass，CSS 预加载工具；</view>
+          <view>4.熟练掌握 git 版本管理工具，熟练掌握 sourceTree git可视化管理工具；</view>
+          <view>5.熟练掌握 HTML5,CSS3,熟练掌握ES5,ES6语法规范, 熟悉js高级规范（闭包，原型链等）；</view>
+          <view>6.有多平台开发能力（H5端，PC端）。</view>
         </view>
       </view>
     </view>
