@@ -24,7 +24,7 @@
       <view></view>
     </view>
     <view>
-      <text class='project-subname'>项目实现:</text>
+      <text class='project-subname'>个人工作:</text>
       <view class='explain' wx:for="{{responsibilityDesc}}">
         <text>{{item}}</text>
       </view>
