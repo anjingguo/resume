@@ -1,0 +1,91 @@
+<!--pages/index/index.wxml-->
+<view id="resume">
+  <view id="head">
+    <text style='font-size:180%;font-weight: bold'>安菁</text>
+    <text style='font-size:150%;padding:3% 0;border-top:1px solid #00A982;border-bottom:2px solid #00A982;margin:3% 0'>Web前端开发工程师</text>
+    <view id='head-info'>
+      <text>男/2002.08.13</text>
+    </view>
+    <!-- 联系方式 -->
+    <view id="head-icon">
+      <text class="iconfont icon-zhuye" bindtap='copyBlog'></text>
+      <text class="iconfont icon-github" bindtap='copyGithub'></text>
+      <text class="iconfont icon-duanxin" bindtap="copyMail"></text>
+      <text class="iconfont icon-phone" bindtap='actionSheetTap'></text>
+    </view>
+  </view>
+  <view id='body'>
+    <!-- 教育经历 -->
+    <view>
+      <view class='subtitle'>
+        <view></view>
+        <text>教育经历</text>
+        <view></view>
+      </view>
+      <text class="name">河北科技师范学院</text>
+      <view class="experience">
+        <text>园艺</text>
+        <text class="date-ranges">2020.09-2024.06</text>
+      </view>
+
+    </view>
+    <!-- 工作经历 -->
+    <view>
+      <view class='subtitle'>
+        <view></view>
+        <text>工作经历</text>
+        <view></view>
+      </view>
+      <view class="job">
+        <text class="name">西安汉柏电子科技有限公司</text>
+        <view class="experience">
+          <text>售前支持</text>
+          <text class="date-ranges">2022.05-2022.09</text>
+        </view>
+        <text class="introduce-content">主要负责对项目现场进行勘测，同时针对智慧农业方向对项目进行方案的设计；
+        </text>
+      </view>
+      <view class="job">
+        <text class="name">陕西旭农信息科技有限公司</text>
+        <view class="experience">
+          <text>采购专员</text>
+          <text class="date-ranges">2023.11-2024.03</text>
+        </view>
+        <text class="introduce-content">主要负责项目产品的询价与采购,主要业务方向为智慧渔业,进行传感器、高位池养殖桶等的询价。
+        </text>
+      </view>
+    </view>
+    <!-- 个人介绍 -->
+    <view>
+      <view class='subtitle'>
+        <view></view>
+        <text>自我介绍</text>
+        <view></view>
+      </view>
+      <view class='introduce-content'>
+        <view>本人具备扎实的技术基础和良好的学习能力，可以快速接受新事物，动手能力和钻研能力很强。</view>
+        <view>本人喜欢思考和探索，具备创新思维和解决问题的能力，希望能够加入一个具有挑战性的团队，不断提高自己的技能水平。</view>
+      </view>
+    </view>
+    <!-- 工作技能 -->
+    <view>
+      <view class='subtitle'>
+        <view></view>
+        <text>工作技能</text>
+        <view></view>
+      </view>
+
+      <view>
+        <text class='skill'>技能</text>
+        <text class='tag'>掌握</text>
+        <view class='detail'>
+          <view> 1.熟练使用html、css、js,掌握Flex、Grid布局，能够将UI设计转化成符合W3C规范的静态页面；</view>
+          <view>2.熟悉JavaScript语言,深入理解JS原型与原型链、作用域链、闭包、执行上下文等概念，熟悉Promise等ES6+新特性以及原理;了解JavaScript代码执行机制;</view>
+          <view>3.熟悉掌握vue,vue-cli,vue-router,vuex及其他常用组件和类库,能够独立进行项目构建和开发;</view>
+          <view>4.掌握Git基本命令,具有良好的代码规范;</view>
+          <view>5.熟悉TCP/IP协议,熟悉浏览器渲染的基本原理</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
